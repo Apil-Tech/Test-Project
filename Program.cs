@@ -47,7 +47,7 @@ namespace TigerSoccerClub
             {
                 if(Players == 1)
                 {
-                    Console.Write("Enter name: ");
+                    Console.Write("Enter Full name: ");
                     Name = Console.ReadLine();
 
                      Console.Write("Registration type: ");
@@ -99,7 +99,7 @@ namespace TigerSoccerClub
                 {
                     for (i = 0; i < Players; i++)
                     {
-                        Console.Write("Enter name: ");
+                        Console.Write("Enter Full name: ");
                          Name = Console.ReadLine();
 
                         Console.Write("Registration type: ");
